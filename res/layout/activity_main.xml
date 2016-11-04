@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.testprinteresc.MainActivity" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印测试联" />
+
+    <Button
+        android:id="@+id/restaurantBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印餐厅联" />
+    <Button
+        android:id="@+id/deliveryManBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印骑手联" />
+    <Button
+        android:id="@+id/customerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印顾客联" />
+    <Button
+        android:id="@+id/orderCancleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印取消联" />
+    <Button
+        android:id="@+id/orderRefoundBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印退款联" />
+
+</LinearLayout>
